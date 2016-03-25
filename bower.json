@@ -1,7 +1,7 @@
 
 {
-  "name": "angular2-skeleton-app",
-  "description": "",
+  "name": "meal-tracker",
+  "description": "tracks calories of meal",
   "main": "",
   "license": "ISC",
   "moduleType": [],
