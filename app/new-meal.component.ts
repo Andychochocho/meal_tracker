@@ -1,14 +1,14 @@
 import { Component, EventEmitter } from 'angular2/core';
-import { Meal } from './model.model';
+import { Meal } from './meal.model';
 
 @Component ({
-  selector: 'new-meal';
-  outputs: ['onClickNewMeal'];
+  selector: 'new-meal',
+  outputs: ['onClickNewMeal'],
   templateUrl: 'app/new-meal.component.html'
 })
 
 export class NewMealComponent {
-  public onClickNewMeal: EventEmitter<string>;
+  public onClickNewMeal: EventEmitter<string[]>;
   constructor() {
     this.onClickNewMeal = new EventEmitter();
   }
