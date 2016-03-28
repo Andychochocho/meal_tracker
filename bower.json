@@ -1,11 +1,10 @@
-
 {
   "name": "meal-tracker",
   "description": "tracks calories of meal",
   "main": "",
   "license": "ISC",
   "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/Andychochocho/meal_tracker",
   "ignore": [
     "**/.*",
     "node_modules",
