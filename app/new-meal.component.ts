@@ -27,7 +27,7 @@ export class NewMealComponent {
      var infoArray = [foodItem.value, details.value, parseInt(calories.value)];
      this.onSubmitNewMeal.emit(infoArray);
      foodItem.value = "";
-     foodItem.value = "";
-     foodItem.value = "";
+     details.value = "";
+     calories.value = "";
    }
 }
