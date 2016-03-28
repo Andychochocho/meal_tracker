@@ -7,14 +7,14 @@ import { EditMealDetailsComponent } from './edit-meal-details.component';
   selector: 'meal-list',
   inputs: ['mealList'],
   outputs: ['onMealSelect'],
+  directives: [MealComponent, EditMealDetailsComponent],
   template:`
   <meal-display
         *ngFor="#currentMeal of mealList"
         (click)="mealClicked(currentMeal)"
         [class.selected]="currentMeal === selectedMeal"
         [meal]="currentMeal">
-        <p>{{selectedMeal}}</p>
-      </meal-display>
+        </meal-display>
       <edit-meal-details *ngIf="selectedMeal" [meal]="selectedMeal">
       </edit-meal-details>
   `
